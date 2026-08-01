@@ -19,5 +19,5 @@ const CONFIG = {
 
   // Path or URL to your music file (mp3). Upload your own file and
   // point this at it, e.g. "https://yourdomain.com/song.mp3"
-  musicSrc: "assets/music/Thousand_years.mp3"
+  musicSrc: "assets/music/ya marhaba bi wled sidi.mp3"
 };

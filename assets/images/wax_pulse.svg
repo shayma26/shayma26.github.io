@@ -1,0 +1,9 @@
+<svg viewBox="0 0 120 120">
+          <g class="seal-half left">
+            <path d="M60 20 A40 40 0 0 0 60 100 Z" fill="#6d2438"/>
+          </g>
+          <g class="seal-half right">
+            <path d="M60 20 A40 40 0 0 1 60 100 Z" fill="#6d2438"/>
+          </g>
+          <circle cx="60" cy="60" r="40" fill="none" stroke="#481621" stroke-width="1.5" opacity="0.6"/>
+        </svg>

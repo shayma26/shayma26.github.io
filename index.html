@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff4f8">
+  <meta name="description" content="Portfolio of Shayma Trad — Software Engineer and Odoo/Python Developer.">
+  <title>Shayma Trad | Software Engineer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="wrap navin"><a class="brand" href="#home">shayma<span>.</span></a>
+      <div class="links" id="navLinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#work">Work</a><a
+          href="#experience">Experience</a><a href="#contact">Contact</a></div>
+      <div class="nav-actions"><button class="iconbtn" id="themeToggle" aria-label="Toggle dark mode"
+          title="Toggle theme">☾</button><button class="iconbtn menu" id="menuToggle" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </nav>
+  <main id="home">
+    <div class="wrap hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="dot"></span> Software Engineer · Open to opportunities</div>
+        <h1>Building useful things, <span class="accent">with a little</span> magic.</h1>
+        <p>Hi, I’m <strong>Shayma Trad</strong> — a Software Engineer focused on Odoo and Python development, custom
+          business solutions, API integrations, and making complex workflows feel simple.</p>
+        <div class="actions"><a class="btn primary" href="#work">Explore my work <span>↗</span></a><a
+            class="btn secondary" href="#contact">Let’s connect <span>♡</span></a></div>
+        <p class="mini-note">Odoo customization · Backend development · Integrations · Data</p>
+      </div>
+      <div class="art" aria-label="Shayma welcoming visitors">
+        <div class="orbit"></div>
+        <div class="welcome-bubble" id="welcomeBubble"><span class="wave">👋</span> <strong>Hi, welcome!</strong><br>I’m
+          Shayma. Explore my work and let’s build something great.<br><button id="sayHiAgain" type="button">Say hello
+            again</button></div>
+        <div class="portrait-frame"><img src="assets/shayma-portrait.png"
+            alt="Professional portrait of Shayma wearing a cream hijab and black blazer"></div>
+        <div class="float-card fc1">Python & Odoo<small>Building business logic</small></div>
+        <div class="float-card fc2">API integrations<small>Connect. Automate. Simplify.</small></div>
+        <div class="float-card fc3">✦ Problem solver</div>
+        <div class="avatar-caption">A developer with a human touch ♡</div>
+      </div>
+    </div>
+    <section id="about">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">A little about me</div>
+            <h2>Thoughtful code.<br>Real-world impact.</h2>
+          </div>
+          <p>I enjoy turning business needs into maintainable software — from custom ERP features to APIs, reporting,
+            and data workflows.</p>
+        </div>
+        <div class="about-grid">
+          <div class="panel reveal">
+            <h3>What I bring</h3>
+            <p>Professional experience developing and maintaining Odoo solutions, implementing access-aware APIs,
+              building reports, and supporting version migrations. I also have hands-on experience with ETL, dashboards,
+              and mobile app development from internships.</p>
+            <div class="skills"><span class="chip hot">Clean problem solving</span><span class="chip">Team
+                collaboration</span><span class="chip">Continuous learning</span><span class="chip">End-to-end
+                thinking</span></div>
+          </div>
+          <div class="stat-grid reveal">
+            <div class="stat"><strong>3+</strong><span>Years in software & development experience since 2023</span>
+            </div>
+            <div class="stat"><strong>v15–v19</strong><span>Odoo versions worked with</span></div>
+            <div class="stat"><strong>REST</strong><span>API design & CRUD endpoints</span></div>
+            <div class="stat"><strong>ETL + BI</strong><span>Data pipelines and dashboards</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">My toolkit</div>
+            <h2>Tools I work with.</h2>
+          </div>
+          <p>A practical mix of backend development, ERP customization, databases, and web technologies.</p>
+        </div>
+        <div class="panel reveal">
+          <h3>Development</h3>
+          <div class="skills"><span class="chip hot">Python</span><span class="chip hot">Odoo</span><span
+              class="chip">JavaScript</span><span class="chip">Java</span><span class="chip">OWL</span><span
+              class="chip">XML</span><span class="chip">HTML / CSS</span><span class="chip">Bootstrap 4</span><span
+              class="chip">Flutter</span></div>
+          <h3 style="margin-top:25px">APIs, data & databases</h3>
+          <div class="skills"><span class="chip hot">REST APIs</span><span class="chip">JSON</span><span
+              class="chip">PostgreSQL</span><span class="chip">MySQL</span><span class="chip">MongoDB</span><span
+              class="chip">PL/SQL</span><span class="chip">Talend ETL</span><span class="chip">Power BI</span><span
+              class="chip">QWeb reports</span></div>
+          <h3 style="margin-top:25px">Workflow & tools</h3>
+          <div class="skills"><span class="chip">Git</span><span class="chip">Postman</span><span
+              class="chip">Jira</span><span class="chip">Trello</span><span class="chip">Rundeck</span><span
+              class="chip">Scrum</span></div>
+        </div>
+      </div>
+    </section>
+    <section id="work">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">Selected work</div>
+            <h2>Things I’ve built<br>& worked on.</h2>
+          </div>
+          <p>Representative project highlights based on my experience. Details are kept high-level where the work was
+            client-specific.</p>
+        </div>
+        <div class="project-tools reveal" role="group" aria-label="Filter projects"><button class="filter active"
+            data-filter="all">All work</button><button class="filter" data-filter="odoo">Odoo & APIs</button><button
+            class="filter" data-filter="data">Data & BI</button><button class="filter"
+            data-filter="mobile">Mobile</button></div>
+        <div class="projects">
+          <article class="project reveal" data-category="odoo">
+            <div class="project-top"><span class="project-icon">⌘</span><span class="project-num">01 / ERP</span></div>
+            <div class="project-body">
+              <h3>Custom Odoo Modules</h3>
+              <p>Designed custom models, business logic, and views to support business workflows inside Odoo.</p>
+              <div class="skills"><span class="chip">Odoo</span><span class="chip">Python</span><span
+                  class="chip">XML</span></div>
+            </div>
+          </article>
+          <article class="project reveal" data-category="odoo">
+            <div class="project-top"><span class="project-icon">↗</span><span class="project-num">02 / API</span></div>
+            <div class="project-body">
+              <h3>REST API Generator</h3>
+              <p>Developed an Odoo module to generate REST endpoints with structured documentation using QWeb.</p>
+              <div class="skills"><span class="chip">REST</span><span class="chip">QWeb</span><span
+                  class="chip">JSON</span></div>
+            </div>
+          </article>
+          <article class="project reveal" data-category="odoo">
+            <div class="project-top"><span class="project-icon">♢</span><span class="project-num">03 / SECURITY</span>
+            </div>
+            <div class="project-body">
+              <h3>Access-Controlled CRUD</h3>
+              <p>Implemented create, read, update, and delete API operations aligned with user permissions and access
+                rights.</p>
+              <div class="skills"><span class="chip">Python</span><span class="chip">Security</span><span
+                  class="chip">Postman</span></div>
+            </div>
+          </article>
+          <article class="project reveal" data-category="odoo">
+            <div class="project-top"><span class="project-icon">⇄</span><span class="project-num">04 / MIGRATION</span>
+            </div>
+            <div class="project-body">
+              <h3>Odoo Version Migrations</h3>
+              <p>Worked on migrations and module compatibility across Odoo versions, including v15, v16, and v19.</p>
+              <div class="skills"><span class="chip">Odoo</span><span class="chip">Debugging</span><span
+                  class="chip">Git</span></div>
+            </div>
+          </article>
+          <article class="project reveal" data-category="data">
+            <div class="project-top"><span class="project-icon">▥</span><span class="project-num">05 / DATA</span></div>
+            <div class="project-body">
+              <h3>ETL & Data Warehouse</h3>
+              <p>Built Talend jobs to extract, cleanse, transform, and load data from multiple file sources.</p>
+              <div class="skills"><span class="chip">Talend</span><span class="chip">ETL</span><span
+                  class="chip">DWH</span></div>
+            </div>
+          </article>
+          <article class="project reveal" data-category="data">
+            <div class="project-top"><span class="project-icon">▤</span><span class="project-num">06 / ANALYTICS</span>
+            </div>
+            <div class="project-body">
+              <h3>Business Intelligence Dashboards</h3>
+              <p>Created interactive Power BI dashboards and analytical reports to support decision-making.</p>
+              <div class="skills"><span class="chip">Power BI</span><span class="chip">Reporting</span></div>
+            </div>
+          </article>
+          <article class="project reveal" data-category="data">
+            <div class="project-top"><span class="project-icon">◷</span><span class="project-num">07 / AUTOMATION</span>
+            </div>
+            <div class="project-body">
+              <h3>Task Scheduling Workflows</h3>
+              <p>Configured automated task scheduling and management workflows using Rundeck.</p>
+              <div class="skills"><span class="chip">Rundeck</span><span class="chip">Automation</span></div>
+            </div>
+          </article>
+          <article class="project reveal" data-category="mobile">
+            <div class="project-top"><span class="project-icon">▱</span><span class="project-num">08 / MOBILE</span>
+            </div>
+            <div class="project-body">
+              <h3>Taxi Booking Applications</h3>
+              <p>Contributed to driver and client mobile apps, including bug fixes and refactoring for location search
+                and live status.</p>
+              <div class="skills"><span class="chip">Flutter</span><span class="chip">Firebase</span><span
+                  class="chip">Scrum</span></div>
+            </div>
+          </article>
+          <article class="project reveal" data-category="odoo">
+            <div class="project-top"><span class="project-icon">▧</span><span class="project-num">09 / REPORTING</span>
+            </div>
+            <div class="project-body">
+              <h3>Reports & Web Tours</h3>
+              <p>Created QWeb/system reports and configured Web Tours for functional testing and user guidance.</p>
+              <div class="skills"><span class="chip">QWeb</span><span class="chip">Odoo</span><span
+                  class="chip">Testing</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <div class="kicker">My journey</div>
+            <h2>Experience & education.</h2>
+          </div>
+          <p>From software engineering studies to practical work across ERP, data, and mobile development.</p>
+        </div>
+        <div class="panel reveal" style="margin-bottom:18px">
+          <div class="timeline">
+            <div class="role">
+              <div class="date">Sep 2023 — Present</div>
+              <h3>Odoo / Python Developer</h3>
+              <p><strong>Tunisofts – MASA Technology</strong> · Tunisia / Saudi Arabia</p>
+              <ul>
+                <li>Build and customize Odoo modules, models, views, and business logic.</li>
+                <li>Develop REST APIs, QWeb reports, and responsive interfaces.</li>
+                <li>Manage access rights and record rules; support testing and migrations.</li>
+              </ul>
+            </div>
+            <div class="role">
+              <div class="date">Feb 2023 — Jun 2023</div>
+              <h3>Data Engineering Intern</h3>
+              <p><strong>Tunisofts</strong> · Sousse, Tunisia</p>
+              <ul>
+                <li>Created Talend ETL jobs and transformed source data for a data warehouse.</li>
+                <li>Configured Rundeck workflows and built Power BI dashboards.</li>
+              </ul>
+            </div>
+            <div class="role">
+              <div class="date">Jun 2022 — Sep 2022</div>
+              <h3>Mobile Developer Intern</h3>
+              <p><strong>Meili</strong> · Remote, London, UK</p>
+              <ul>
+                <li>Contributed to driver and client taxi-booking applications.</li>
+                <li>Worked in a Scrum team and improved features through debugging and refactoring.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="education">
+          <div class="panel edu reveal">
+            <div class="edu-icon">🎓</div>
+            <div>
+              <h3>National Engineer Certificate — Software Engineering</h3>
+              <p>Higher Institute of Applied Science and Technology of Sousse · 2018–2023</p>
+            </div>
+          </div>
+          <div class="panel edu reveal">
+            <div class="edu-icon">📜</div>
+            <div>
+              <h3>Certifications</h3>
+              <p>Business Intelligence Foundation Professional Certification (BIFPC™); Microsoft Office Specialist Word
+                2016 and PowerPoint 2019.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel reveal" style="margin-top:18px">
+          <h3>Community & languages</h3>
+          <p>Cyber Trace Club (2019–2022): Organization Manager, networking events with 30+ participants, and 50+ CTF
+            tasks. North American Tunisian Engineers Group (2019–2021): Engineering for Society and Marketing
+            committees.</p>
+          <div class="skills"><span class="chip hot">Arabic · Native</span><span class="chip">English ·
+              Proficient</span><span class="chip">French · Conversational</span><span class="chip">Russian ·
+              Basic</span></div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="wrap">
+        <div class="contact reveal">
+          <div>
+            <div class="kicker">Have a project in mind?</div>
+            <h2>Let’s make<br>something lovely.</h2>
+            <p>I’m interested in software engineering opportunities where I can build reliable products, solve
+              meaningful problems, and keep growing technically.</p>
+            <div class="actions"><a class="btn primary" href="mailto:tradshayma@gmail.com">Email me ↗</a><button
+                class="btn secondary" id="copyEmail">Copy email</button></div>
+          </div>
+          <div class="contact-links"><a class="contact-link"
+              href="mailto:tradshayma@gmail.com"><span>Email</span><strong>tradshayma@gmail.com ↗</strong></a><a
+              class="contact-link" href="https://www.linkedin.com/in/shayma-trad/" target="_blank"
+              rel="noopener"><span>LinkedIn</span><strong>shayma-trad ↗</strong></a><a class="contact-link"
+              href="https://github.com/shayma26" target="_blank" rel="noopener"><span>GitHub</span><strong>shayma26
+                ↗</strong></a>
+            <div class="contact-link"><span>Based in</span><strong>Ariana, Tunisia</strong></div>
+            <div class="contact-link"><span>Phone</span><strong>+216 99 281 768</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap footerin"><span>© <span id="year"></span> Shayma Trad. Built with care & a little pink. ♡</span><a
+        class="toplink" href="#home">Back to top ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
